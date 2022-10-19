@@ -1,0 +1,549 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: var(--sekundarna);
+}
+
+
+
+:root{
+     --sivoCrna:#202020;
+     --svetlijaSiva: #373737;
+     --bodyCrna: #181818;
+     --najsvetlijaSiva: #aaaaaa;
+     --skoroBela:#e6e6e6;
+
+     --narandzastCista: #ff8100;
+     --srednjaNarandzasta:#ff9325;
+
+     
+     /*SEKUNDARNA MNOGO DOBRA NIJANSA SIVE, TU KORISTIM ZA BODY*/
+          --sekundarna: #737373;
+};
+
+
+#ikonaMod:after{
+
+     background: var(--narandzastCista);
+}
+
+
+/*NISAM SIGURAN PROVERITI IZNAD*/
+/*OVO JE ZA DUGME ZA PROMENU THEME, POGLEDATI KASNIJE*/
+
+.container{
+    background: var(--sekundarna); 
+}
+
+
+
+
+
+
+/*DUGMAD*/
+.btn-default{
+    color:var(--bodyCrna);
+    background-color: var(--narandzastCista);
+    border: 1px solid var(--sivoCrna);
+}
+.btn-default:hover {
+    color: var(--narandzastCista);
+    background-color: var(--svetlijaSiva);
+}
+/*KORPA I SVA DRUGA DUGMAD*/
+.btn-danger.focus, .btn-danger:focus {
+    color: var(--bodyCrna);
+    background-color: var(--srednjaNarandzasta);
+    border-color: var(--narandzastCista);
+}
+.btn-danger  {
+    color: var(--bodyCrna);
+    background-color: var(--srednjaNarandzasta);
+    border-color: var(--narandzastCista);
+    border:1px solid;
+}
+.btn-danger:hover{
+    color: var(--narandzastCista);
+    background-color: var(--sivoCrna);
+    border-color: var(--najsvetlijaSiva);
+    border:1px solid;
+}
+.btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
+    color: var(--bodyCrna);
+    background-color: var(--srednjaNarandzasta);
+    border-color: var(--narandzastCista);
+}
+
+
+
+
+
+
+
+/*NAVIGACIONI BAR*/
+.navbar-default .navbar-nav>li>a {
+    color:var(--narandzastCista);
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: var(--narandzastCista);
+    color: var(--sivoCrna); 
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: var(--skoroBela);
+    background-color: transparent;
+}
+.navbar-default .navbar-brand{
+    color: var(--narandzastCista);
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color: var(--skoroBela); 
+    background-color: transparent;
+}
+.navbar-nav > .active > .a {
+  color: var(--narandzastCista);
+}
+.navbar-header > .navbar-brand {
+    color: var(--narandzastCista);
+}
+.navbar {
+    border: 1px solid var(--svetlijaSiva);
+    color: var(--sivoCrna);
+    background-color:  var(--svetlijaSiva);
+}
+.navbar-nav > li:active{
+    background-color: var(--narandzastCista);
+    color: var(--narandzastCista); 
+    background-color: transparent;
+}
+
+/*DROPDOWN NAVBARA ZA PROFIL*/
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: var(--narandzastCista);
+    background-color: var(--svetlijaSiva);
+}
+.dropdown-menu>li {
+    color: var(--bodyCrna);
+}
+.dropdown-menu{
+    color: var(--najsvetlijaSiva);
+    background-color: #ffffff;
+}
+
+/*SEARCH REZULTATI*/
+#nemaSearch{
+    color:var(--skoroBela);
+}
+#h3PretragaMaloSlova{
+    color:var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+.page-header {
+    border-bottom: 2px solid var(--narandzastCista);
+    background-color: var(--sekundarna);
+    color: var(--narandzastCista);
+}
+
+#logoTekst{
+    color: var(--skoroBela);
+    text-decoration-color: var(--narandzastCista);
+    -webkit-text-stroke: 2px var(--bodyCrna);
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.panel-footer {
+    color: var(--narandzastCista);
+    background-color: var(--svetlijaSiva);
+    border-top: 2px solid var(--narandzastCista);
+    border-right: 2px solid var(--narandzastCista);
+    border-left: 2px solid var(--narandzastCista);
+}
+#futerLinkovi >li>a{
+    color:var(--narandzastCista);
+}
+#futerLinkovi >li>a:hover{
+    color:var(--narandzastCista);
+}
+
+.fab:hover{
+    color: var(--narandzastCista);
+}
+.caption{
+    color:var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PRODAVNICA*/
+.thumbnail{
+    color: var(--narandzastCista);
+    background-color: var(--svetlijaSiva);
+}
+.thumbnail>h3{
+    color:var(--narandzastCista);
+}
+.thumbnail>h2{
+    color:var(--narandzastCista);
+}
+/*Prodavnica Search*/
+#formaS{
+    color:var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*INDEX JUMBOTRONI ZA CITATE I INFORMACIJE*/
+.jumbotron
+{    
+ color: var(--sivoCrna);
+ background-color: var(--najsvetlijaSiva);
+}
+
+#autor{
+    color: var(--skoroBela);
+}
+
+blockquote {
+    border-left: 5px solid var(--narandzastCista);
+}
+#poljeOpisStripa{
+    color:var(--skoroBela);
+}
+#poljeSpecijal {
+    color:var(--skoroBela);
+}
+#boldStripotekaIndex{
+    color:var(--bodyCrna);
+}
+#poljeRedovno{
+ color:var(--skoroBela);
+}
+#poljeKnjiga{
+ color:var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GALERIJA*/
+#galerijaH2{
+    color: var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*O DILANU STRANA*/
+.text-justify {
+    color: var(--skoroBela);
+}
+#adresaOdilanu{
+    color:var(--skoroBela);
+}
+#mailODilanu{
+    color: var(--skoroBela); 
+}
+#mailMoj{
+    color:var(--narandzastCista);
+}
+
+#dilanCite{
+    color:var(--narandzastCista);
+}
+
+#dilanSlikaIspod{
+    color:var(--skoroBela);
+}
+
+
+
+
+
+
+
+
+
+
+/*KONTAKT STRANA*/
+.form-group{
+    color:#000000;
+    background-color: var(--najsvetlijaSiva); 
+}
+.form-control{
+    border-color: var(--narandzastCista)  ;
+}
+.klasaGde{
+    color:var(--skoroBela);   
+}
+
+
+
+
+
+
+
+/*SVE TABELE KOJE IMAM U PROFILU*/
+.panel-default {
+    color:var(--bodyCrna);
+    background-color: var(--najsvetlijaSiva);
+    border:2px solid #000000;
+    border-radius: 9px;
+}
+.panel-heading>h3 {
+    color: var(--narandzastCista);
+}
+.panel-default>.panel-heading {
+    background-color: var(--sivoCrna);
+    border-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ADMINISTRACIJA*/
+#sviStripoviADMIN{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sviStripoviADMIN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#sviStripoviADMIN>tbody{
+    background-color: #ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+/*KORISNICKI SERVIS*/
+#sviKorisniciADMIN{
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+#sviKorisniciADMIN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#sviKorisniciADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+#svePorudzbineADMIN{
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+#svePorudzbineADMIN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#svePorudzbineADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+#sviMailoviADMIN{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sviMailoviADMIN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#sviMailoviADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+h3>small{
+    color:var(--skoroBela);
+    text-decoration:;
+}
+
+
+
+
+
+
+
+
+
+/*PORUDZBINE*/
+#svePorudzbineKorisnik{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#svePorudzbineKorisnik>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#svePorudzbineKorisnik>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+/*LISTA ZELJA*/
+#sveListeZeljaKorisnik{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sveListeZeljaKorisnik>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#sveListeZeljaKorisnik>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+/*KORPA*/
+#korisnikKorpa{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#korisnikKorpa>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+}
+#korisnikKorpa>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+#ukupnoTabela{
+    color:#000000;
+    font-size: 1.2em;
+    background-color: var(--najsvetlijaSiva);
+    border-bottom:2px solid #000000;
+}
+
+
+
+
+
+
+
+/*PORUDZBENICA NAKON NARUCIVANJA*/
+#porudzbinaRACUN{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#porudzbinaRACUN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+    border:2px solid #000000;
+}
+#porudzbinaRACUN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+#podaciRACUN{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#podaciRACUN>thead{
+    background-color: var(--svetlijaSiva);
+    color:var(--narandzastCista);
+    border:2px solid #000000;
+}
+#podaciRACUN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+
+}
+#ukupnoRACUN{
+    color:#000000;
+    font-size: 1.2em;
+    background-color: var(--najsvetlijaSiva);
+    border-bottom:2px solid #000000;
+}

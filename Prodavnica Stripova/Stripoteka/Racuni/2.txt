@@ -1,0 +1,18 @@
+ARTIKLI:
+
+Ime artikla: Put Zagonetki
+Cena artikla: 270,00 dinara
+
+Ime artikla: Knjiga I
+Cena artikla: 1990,00 dinara
+
+
+UKUPNO ZA PLACANJE: 2760,00 dinara
+
+Roba porucena dana: 07-04-2022
+
+PODACI PORUCIOCA: Filip , Djokovic
+
+ADRESA ZA DOSTAVU: Kostolacka 8 , Beograd
+
+TELEFON: 060/123-4567

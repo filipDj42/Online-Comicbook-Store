@@ -1,0 +1,477 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: var(--bela);
+}
+
+:root{
+
+
+    --crvena:#ff0000;
+    --crna: #000000;
+    --bela:#fffafa;
+    --navBarSiva: #dddddd;
+    --bodySiva: #f1f1f1;
+}
+;
+
+
+
+
+
+.container{
+    background:  var(--bela); 
+}
+.btn-default{
+    color: var(--bela);
+    background-color: var(--crvena);
+    border: 1px solid var(--crna);
+}
+.btn-default:hover {
+    color:  #ff3333;
+    background-color: var(--bela);
+}
+/*KORPA I SVA DRUGA DUGMAD*/
+.btn-danger  {
+    color: var(--bela);
+    background-color: var(--crvena);
+    border:1px solid var(--crna);
+}
+.btn-danger:hover{
+    color: var(--crvena);
+    background-color: var(--bodySiva);
+    border:1px solid var(--crna);
+}
+
+
+
+.btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
+    color: var(--crvena);
+    background-color: var(--bela);
+    border-color: var(--crvena);
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    color: var(--crvena);
+    background-color: var(--bela);
+    border-color: var(--crvena);
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color:var(--crna);
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+    color: var(--crvena); 
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: var(--crvena);
+    background-color: transparent;
+}
+
+
+
+.navbar-default .navbar-brand{
+    color: var(--crna);
+}
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color: var(--crvena); 
+    background-color: transparent;
+}
+
+.navbar-nav > .active > .a {
+  color:  var(--crvena);
+}
+
+.navbar {
+    border: 1px solid var(--crna);
+    color: var(--crvena);
+    background-color:  var(--navBarSiva);
+}
+
+.navbar-nav > li:active{
+    color: var(--crvena); 
+    background-color: transparent;
+}
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: var(--crvena);
+    background-color: var(--bela);
+}
+
+.dropdown-menu>li {
+    color: var(--crvena);
+}
+
+.dropdown-menu{
+    color: var(--crvena);
+    background-color:var(--navBarSiva);
+}
+
+#nemaSearch{
+    color:var(--crna);
+}
+
+#h3PretragaMaloSlova{
+    color:var(--crna);
+}
+
+
+
+.page-header {
+    border-bottom: 2px solid var(--crvena);
+    background-color: var(--bela);
+    color: var(--crna);
+}
+
+
+#logoTekst{
+    color: var(--crna);
+    text-decoration-color: var(--crvena);
+}
+
+
+
+.panel-footer {
+    color: var(--crna);
+    background-color: var(--navBarSiva);
+    border-top: 2px solid var(--crvena);
+    border-right: 2px solid var(--crvena);
+    border-left: 2px solid var(--crvena);
+}
+
+#futerLinkovi >li>a{
+    color:var(--crna);
+}
+
+#futerLinkovi >li>a:hover{
+    color:var(--crvena);
+}
+
+.fab:hover{
+    color: var(--crvena);
+}
+
+
+
+.thumbnail{
+    color: var(--crvena);
+    background-color:#e7e7e7;
+}
+
+.thumbnail>h3{
+    color:var(--crvena);
+}
+
+.thumbnail>h2{
+    color:var(--crvena);
+}
+
+
+
+/*GDE MI JE OVO*/
+#formaS{
+    color:var(--crna);
+}
+
+
+
+
+.jumbotron
+{    
+ color: var(--crna);
+ background-color: #e7e7e7;
+}
+
+#autor{
+    color: var(--crvena);
+}
+
+blockquote {
+    border-left: 5px solid var(--crvena);
+}
+
+#poljeOpisStripa{
+    color:var(--crna);
+}
+
+#poljeSpecijal {
+    color:var(--crna);
+}
+
+#boldStripotekaIndex{
+    color:var(--crvena);
+}
+#poljeRedovno{
+ color:var(--crna);
+}
+#poljeKnjiga{
+ color:var(--crna);
+}
+
+
+#galerijaH2{
+    color: var(--crna);
+}
+
+
+.caption{
+    color:var(--crna);
+}
+
+
+
+
+/*O DILANU STRANA*/
+.text-justify {
+    color: var(--crna);
+}
+#adresaOdilanu{
+    color:var(--crna);
+}
+#mailODilanu{
+    color: var(--crvena); 
+}
+#mailMoj{
+    color:var(--crna);
+}
+
+#dilanCite{
+    color:var(--crvena);
+}
+
+#dilanSlikaIspod{
+    color:var(--crna);
+}
+
+
+#mailMoj:hover{
+    color:var(--crvena);
+}
+
+
+
+
+
+
+
+
+
+
+/*KONTAKT STRANA*/
+.form-group{
+    color:var(--crna);
+    background-color: var(--navBarSiva); 
+    border:1px solid var(--crvena);
+}
+.form-control{
+    border:0px;
+}
+.klasaGde{
+    color:var(--crna);   
+}
+
+
+.panel-default {
+    color:var(--crna);
+    background-color: #c7c7c7;
+    border:2px solid var(--crvena);
+    border-radius: 9px;
+}
+.panel-heading>h3 {
+    color: var(--crna);
+    font-size:2em;
+}
+.panel-default>.panel-heading {
+    background-color: var(--navBarSiva);
+    border-color: var(--crvena);
+}
+
+
+
+
+
+/*ADMINISTRACIJA*/
+#sviStripoviADMIN{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sviStripoviADMIN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#sviStripoviADMIN>tbody{
+    background-color: #ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+/*KORISNICKI SERVIS*/
+#sviKorisniciADMIN{
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+#sviKorisniciADMIN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#sviKorisniciADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+#svePorudzbineADMIN{
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+#svePorudzbineADMIN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#svePorudzbineADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+#sviMailoviADMIN{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sviMailoviADMIN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#sviMailoviADMIN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+h3>small{
+    color:var(--crna);
+    text-decoration:;
+}
+
+
+
+
+#svePorudzbineKorisnik{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#svePorudzbineKorisnik>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#svePorudzbineKorisnik>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+
+/*LISTA ZELJA*/
+#sveListeZeljaKorisnik{
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#sveListeZeljaKorisnik>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#sveListeZeljaKorisnik>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+#korisnikKorpa{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#korisnikKorpa>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+}
+#korisnikKorpa>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+#ukupnoTabela{
+    color:#000000;
+    font-size: 2em;
+    background-color: #c7c7c7;
+    border-bottom:2px solid #000000;
+}
+
+
+
+
+
+/*PORUDZBENICA NAKON NARUCIVANJA*/
+#porudzbinaRACUN{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#porudzbinaRACUN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+    border:2px solid #000000;
+}
+#porudzbinaRACUN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+}
+
+
+
+#podaciRACUN{
+    background-color: #ffffff;
+    border:2px solid #000000;
+}
+#podaciRACUN>thead{
+    background-color: var(--bodySiva);
+    color:var(--crvena);
+    border:2px solid #000000;
+}
+#podaciRACUN>tbody{
+    background-color:#ffffff;
+    color:#000000;
+    font-size: 1.2em;
+
+}
+#ukupnoRACUN{
+    color:#000000;
+    font-size: 1.2em;
+    background-color: #c7c7c7;
+    border-bottom:2px solid #000000;
+}
